@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>School of Quotes</title>
+    <link rel="stylesheet" href="Content_1_Individuals.css" />
+    <link rel="stylesheet" href="Content_2_Contributors.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <div class="book">
+      <div class="page cover-front">
+        <h1>Oh The Quotes You'll Read</h1>
+        <div class="hat"><i class="fab fa-pied-piper-hat"></i></div>
+        <h2>By PotatoHermano</h2>
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+      <div class="page cover-front">
+        <button class="prev-btn" onclick="prevPage()">◀</button>
+      </div>
+      <div class="page text-page">
+        <h2>Table of Contents</h2>
+        <div class="Contributors">
+          <h3 onclick="goToPage(5)">Contributors Index</h3>
+        </div>
+        <div class="Random_Quotes">
+          <h3 onclick="goToPage(13)">Random Quotes</h3>
+        </div>
+        <div class="QuoteABC">
+          <h3 onclick="goToPage(13)">Quotes By Author(A-Z)</h3>
+        </div>
+        <div class="Quote123">
+          <h3 onclick="goToPage(13)">Quotes By Date</h3>
+        </div>
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+
+      <div class="page text-page">
+        <h1>Contributors Index</h1>
+        <h2>(Alphabetical Order By Last Name)</h2>
+        <h3>A to D</h3>
+        <h3 onclick="goToPage(7)">E to H</h3>
+        <h3 onclick="goToPage(7)">I to L</h3>
+        <h3 onclick="goToPage(9)">M to P</h3>
+        <h3 onclick="goToPage(9)">Q to T</h3>
+        <h3 onclick="goToPage(11)">U to X</h3>
+        <h3 onclick="goToPage(11)">Y & Z</h3>
+        <button class="prev-btn" onclick="prevPage()">◀</button>
+      </div>
+
+      <div
+        class="page ContributorsN"
+        --
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        "
+      >
+        <h1>A</h1>
+        <h3>Carlo Aguila</h3>
+        <h3>Amir Alexander</h3>
+        <h3>Abril Antonini</h3>
+        <hr />
+        <h1>B</h1>
+        <h3>John Branstetter</h3>
+        <hr />
+        <h1>C</h1>
+        <h3>Salvador Cebreros</h3>
+        <hr />
+        <h1>D</h1>
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+
+      <div class="page ContributorsN">
+        <h1>E</h1>
+        <h1>F</h1>
+        <h1>G</h1>
+        <h1>H</h1>
+        <h3>Bruce Hsu</h3>
+        <button class="prev-btn" onclick="prevPage()">◀</button>
+      </div>
+
+      <div class="page ContributorsN">
+        <h1>I</h1>
+        <h1>J</h1>
+        <h1>K</h1>
+        <h1>L</h1>
+        <h3>Michael Lofchie</h3>
+        <h3>Bryan Ly</h3>
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+
+      <div class="page ContributorsN">
+        <h1>M</h1>
+        <h3>James Mustamandi</h3>
+        <h1>N</h1>
+        <h1>O</h1>
+        <h1>P</h1>
+        <button class="prev-btn" onclick="prevPage()">◀</button>
+      </div>
+
+      <div class="page ContributorsN">
+        <h1>Q</h1>
+        <h1>R</h1>
+        <h1>S</h1>
+        <h3>Abbas Siddiqui</h3>
+        <h3>Mustafa Siddiqui</h3>
+        <h1>T</h1>
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+
+      <div class="page ContributorsN">
+        <h1>U</h1>
+        <h1>V</h1>
+        <h1>W</h1>
+        <h1>X</h1>
+        <button class="prev-btn" onclick="prevPage()">◀</button>
+      </div>
+
+      <div class="page ContributorsN">
+        <h1>Y</h1>
+        <h3>Junjie Ye</h3>
+        <h1>Z</h1>
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+
+      <!-- PAGE 13 -->
+
+      <div class="page">
+        <p>hi6</p>
+        <button class="prev-btn" onclick="prevPage()">◀</button>
+      </div>
+      <div class="page">
+        <p>hi6</p>
+
+        <button class="next-btn" onclick="nextPage()">▶</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+Side Notes
+1. Shift+Alt+Up/Down to Copy+Paste 
+2. box-shadow: x-axis, y-axis, blur, color
+3. Select selection then either; Shift+Tab (TO REMOVE INDENT FROM ALL), or Tab (TO INDENT ALL)
+4. Select pieces of code, and do CTRL+/ to make it all a comment
+-->
